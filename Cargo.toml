@@ -61,7 +61,7 @@ chrono = { version = "0.4.15", features = ["std"], default-features = false, opt
 jiff = { version = "0.2", default-features = false, optional = true }
 rand = "0.9"
 serde = { version = "1.0", features = ["derive"], optional = true }
-serde_json = { version = "1.0", features = ["preserve_order"], optional = true }
+serde_json = { version = "1.0", optional = true }
 indexmap = "2.1.0"
 hex = "0.4.2"
 base64 = "0.22.1"
